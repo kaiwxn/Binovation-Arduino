@@ -1,7 +1,7 @@
 # Binovation
 
-## Project Description
-This repository contains Arduino programs for our MyScience project "Binovation". The Bin Sensor is designed to measure the height of the garbage inside a bin over a period of time that is triggered via button press. It then sends the measurements to the Serial console, which then can be inserted into the Binovation Website.
+## Description
+This repository contains Arduino programs for our MyScience project "Binovation". The Bin Sensor is designed to measure the height of the garbage inside a bin over a period of time that is triggered via button press. It then sends the measurements to the Serial console, which then can be inserted into the Binovation Website and processed.
 
 ## Installation
 To use the Bin Sensor project, follow these steps:
@@ -21,12 +21,25 @@ To use the Bin Sensor project, follow these steps:
 
 6. Click on the "Upload" button in the Arduino IDE to upload the code to the Arduino board.
 
-7. Open the Serial console in the Arduino IDE to view the measurements sent by the Bin Sensor.
 
-8. The Bin Sensor is now ready to measure the height of the garbage in the bin.
+## Building the sensor
+Parts used:
+- Arduino Nano Iot 33
+- Ultrasonic Sensor HC-SR04P
+- Button with four pins
+- Battery case with two AA batteries 
+
+This is the schematic for the sensor including the button and the ultrasonic sensor. If you want to connect an external battery, connect it to the VIN and Ground pin of the Arduino.
+
+![Sensor Schematics](https://github.com/kaiwxn/Binovation/blob/main/img/Sensor_mit_Button_Schaltplan.jpg?raw=true)
+
+We used a 3D-printed case to protect the Sensor from environmental factors, e.g. rain and snow, which has an openable lid and two holes for the MicroUSB cable and the button. The arrangement of the parts inside the case is shown in the following image.
+
+![Cross Section picture](https://github.com/kaiwxn/Binovation/blob/main/img/Sensor_Querschnitt.jpg?raw=true)
+
 
 ## Contributing
-If you would like to contribute to the Binovation project, please follow these guidelines:
+If you have questions or would like to contribute to this project, please follow these guidelines:
 
 - Fork the repository.
 - Create a new branch for your feature or bug fix.
@@ -35,4 +48,7 @@ If you would like to contribute to the Binovation project, please follow these g
 - Submit a pull request to the main repository.
 
 ## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+This project is licensed under the Apache License. See the [LICENSE](LICENSE) file for more information.
+
+## Credits
+Kaiwxn
