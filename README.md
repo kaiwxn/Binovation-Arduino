@@ -31,7 +31,7 @@ Parts used:
 
 This is the schematic for the sensor including the button and the ultrasonic sensor. If you want to connect an external battery, connect it to the VIN and Ground pin of the Arduino.
 
-![Sensor Schematics](https://github.com/kaiwxn/Binovation/blob/main/img/Sensor_mit_Button_Schaltplan.jpg?raw=true)
+![Sensor Schematics](https://github.com/kaiwxn/Binovation/blob/main/img/Sensor_mit_Button_Schaltplan.png?raw=true)
 
 We used a 3D-printed case to protect the Sensor from environmental factors, e.g. rain and snow, which has an openable lid and two holes for the MicroUSB cable and the button. The arrangement of the parts inside the case is shown in the following image.
 
