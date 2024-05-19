@@ -1,5 +1,5 @@
 // 
-// Program for our Arduino Nano for the MyScience project
+// Program for the Arduino Nano 
 //
 
 #include <ArduinoLowPower.h>
